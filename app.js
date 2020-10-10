@@ -86,7 +86,7 @@ app.post("/register", async (req, res) => {
           res.send("กรอกข้อมูลให้ถูกต้อง");
         }
       }
-      res.send(category);
+      res.send('มีอีเมลล์นี้แล้ว');
     }
   );
 });
